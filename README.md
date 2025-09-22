@@ -2,27 +2,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Ramito de Flores Amarillas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       background: linear-gradient(to bottom, #fff8dc, #ffeb99);
       text-align: center;
       font-family: 'Segoe UI', sans-serif;
-      padding-top: 40px;
+      padding: 20px;
+      margin: 0;
     }
     h1 {
       color: #f4c430;
-      font-size: 2.5em;
+      font-size: 2em;
       margin-bottom: 20px;
     }
     canvas {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
       border: 2px solid #f4c430;
       background-color: #fffef0;
       border-radius: 10px;
       display: none;
     }
     button {
-      padding: 14px 28px;
-      font-size: 1.2em;
+      padding: 12px 24px;
+      font-size: 1em;
       background-color: #f4c430;
       color: white;
       border: none;
@@ -34,11 +39,12 @@
       background-color: #e0b000;
     }
     .mensaje-final {
-      font-size: 1.4em;
+      font-size: 1.2em;
       color: #d2691e;
       font-style: italic;
       min-height: 40px;
       transition: opacity 1s ease;
+      padding: 0 10px;
     }
   </style>
 </head>
